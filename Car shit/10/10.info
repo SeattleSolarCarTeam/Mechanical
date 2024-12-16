@@ -1,0 +1,55 @@
+Model: car made the right way v35.SLDPRT
+Project name: Project(1)
+Config name: Default
+Project path: C:\Users\juded\OneDrive\Desktop\Car shit\10\10.xmlconfig
+Status: Calculating
+
+Number of cells:
+    Total cells: 68454
+    Fluid cells: 68454
+    Solid cells: 919
+    Fluid cells containing solids: 873
+
+
+Geometry preparation finished: 
+Geometry preparation time: 00:00:00
+Solver CPU time: 00:00:38
+Iterations: 82
+Travels: 1.00227
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 
+CPU time per last iteration: 00:00:00
+CPU time left: 00:00:00
+Iterations per 1 travel: 82
+
+Goals
+    Name           | Unit (SI) | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Force 1     | force    |          112.77 |     100.0 |            3.79 |            1.81 | On
+    GG Force (Y) 2 | force    |           74.80 |     100.0 |            3.20 |            0.80 | On
+    GG Force (Z) 3 | force    |           84.10 |     100.0 |            4.77 |            2.48 | On
+
+Project details
+    Default fluids: 
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2023  x64 / 5965 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2023 SP2.1
+    Computer name: DESKTOP-C408A46
+    User name: juded
+    Operating system: Windows 11 (or higher) (Version 10.0.22631)
+    Processors: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+    Number of cores: 6
+    Memory: 18940 MB / 32672 MB
+

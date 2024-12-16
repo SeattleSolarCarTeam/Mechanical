@@ -1,0 +1,972 @@
+Log started at 14.12.2024	21:34:17
+Number of used processors (NPROC): 6.
+Number of mesh partitions (NPART): 6.
+Total Physical Memory = 31.91 Gb, Available Physical Memory = 17.32 Gb
+Computer name:	DESKTOP-C408A46
+Operating system:	Windows 11 (or higher) (Version 10.0.22631)
+
+Commandline:	"C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS Flow Simulation\BINCFW\efdsolver.exe" /config:"C:\Users\juded\OneDrive\Desktop\Car shit\24\24.xmlconfig" /guid:775a26c3-681c-455a-8172-69157ad4e442 /processors:max /m /s /prjnamelm:"Flow Simulation 2023" /prjnamehabout:"Flow Simulation 2023" /companyname:"COSMOS Applications" /prjaliasid:1009 /lang:English /port:9001
+
+SOLIDWORKS 2023 SP2.1
+Flow Simulation 2023  x64 / 5965
+
+Project: C:\Users\juded\OneDrive\Desktop\Car shit\24\24.xmlconfig
+Configuration name: Default
+Project name: Project(1)
+Problem type: external-with-void-internal-space-type
+Exclude cavities without flow conditions: ON
+NGK: OFF
+MBO: OFF
+-----------------------------------------------------------------------
+Mesher option run = eRunMesherNormal
+-----------------------------------------------------------------------
+
+Mesh generation started:	14.12.2024	21:34:17
+-----------------------------------------------------------------------
+Memory Working Set Current = 15.46 Mb, Memory Working Set Peak = 15.46 Mb
+Memory Private Bytes Current = 15.96 Mb, Memory Private Bytes Peak = 15.96 Mb
+Process Threads Number: 7
+-----------------------------------------------------------------------
+Mesher adjust APD = OFF; AdjustAPD_method=0; N_per_Channel = 0; N2_per_Channel = 0
+Current CPU = 0 sec
+-----------------------------------------------------------------------
+Geometries initialization:
+-----------------------------------------------------------------------
+Loading mesh settings (global/local)...
+-----------------------------------------------------------------------
+Number of geometries from DB: 1
+Geometry(0):
+	Guid = {00000000-0000-0000-0000-000000000000}
+	Fluid..
+	1 Body.
+	1 Real body.
+	-- Bodyset 0 --
+		Tolerance=0.000244696.
+		22 Face(s).
+			22 of b-spline type.
+		0 Face(s) that have no ref faces
+		5 Plane surface(s).
+		17 B- surface(s).
+		96560 Triangle(s).
+		Getting triangle connectivities from DB: 0.024 s
+		72 Edge(s).
+			72 of b-spline type.
+		BodyGeom reading: 0.059 s.
+		96560 Reference Triangles.
+		Getting triangle connectivities from DB (Ref): 0.014 s
+		BodyGeom Ref reading: 0.026 s.
+Geometry(1):
+	Solid.
+	-- Bodyset 1 --
+	Empty
+-----------------------------------------------------------------------
+Number of geometries in task: 2
+	G : 0	Type: Fluid
+	G : 1	Type: Solid
+Number of bodysets   in task: 2
+-----------------------------------------------------------------------
+BodySet (0):
+	Making hash and connectivity for Bodyset ...
+		CBodyGeom:
+		Hash size: {44, 336, 32}.
+		Mesh size: {44, 84, 32}.
+		Hashing triangles...Ok.
+			axis(0) tr sizes: average=47 max=961
+			axis(1) tr sizes: average=180 max=1106
+			axis(2) tr sizes: average=25 max=584
+		Making triangles connectivity...Ok. (0.005 s).
+		The triangle connectivity from DB is incomplete, and #connects added = 6
+		Neighbour triangles: 100.00 % (good connect:96557) - 0.00 % (bad connect:3). Min: 2. Max: 4.
+		Number of t-connected sets:1 (cavity=0)
+		CBodyGeomRef:
+		Hashing triangles...Ok.
+			axis(0) tr sizes: average=101 max=1341
+			axis(1) tr sizes: average=173 max=1067
+			axis(2) tr sizes: average=54 max=814
+	0.108 s.
+Geometries reading and preparing has taken 0.238 s.
+-----------------------------------------------------------------------
+Mapped triangles:
+Hashing rough geometry(bodies) triangulation:
+BodySet (0):
+	Triangles num=96560
+	Triangles box={-0.906828 ,0.905842 ,-5 ,0 ,0.0675703 ,0.555917}
+		3d-hash size is 1054496 bytes
+		Making triangles connectivity...Ok. (0.005 s).
+		The triangle connectivity from DB is incomplete, and #connects added = 6
+		Neighbour triangles: 100.00 % (good connect:96557) - 0.00 % (bad connect:3). Min: 2. Max: 4.
+BodySet (1):
+no log info (empty stream)
+
+Mapped triangles processed in 0.089 s.
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Getting sectors:
+Number of sectors: 0
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Bodies:     2
+Faces:      22
+Edges:      72
+Triangles:  96560
+-----------------------------------------------------------------------
+
+Current CPU = 0 sec
+-----------------------------------------------------------------------
+Memory Working Set Current = 82.15 Mb, Memory Working Set Peak = 103.08 Mb
+Memory Private Bytes Current = 82.43 Mb, Memory Private Bytes Peak = 102.97 Mb
+Process Threads Number: 12
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Checking faces on CD...
+FCD = [0 0 0 0 0 0]
+FCD_conflicts = 0
+Time (check faces on CD)=0.000 s
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+Mesh dimensions:
+				I[0 ]=44
+				I[1 ]=84
+				I[2 ]=32
+
+Comp. domain size:
+				a[0  ]=-2.37529
+				a[1  ]=2.37428
+				a[2  ]=-7.44701
+				a[3  ]=1.46823
+				a[4  ]=-1.40122
+				a[5  ]=2.02453
+
+Fluid calculated			1
+Solid calculated			0
+-----------------------------------------------------------------------
+MESH Build started...
+-----------------------------------------------------------------------
+Mesh LEVEL = 1
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+CPT-mode xeps:
+	D / dh / eps [axis=0] = (4.74957, 0.044423, 4.4423e-05)
+	D / dh / eps [axis=1] = (8.91524, 0.0446924, 4.46924e-05)
+	D / dh / eps [axis=2] = (3.42575, 0.0399667, 3.99667e-05)
+-----------------------------------------------------------------------
+Initial allocation and brick-body-box intersection...OK (0.002 s)
+Initial triangle brick intersection...OK (0.001 s)
+Setting regions (118272 / 118272)...OK (0.001 s)
+-----------------------------------------------------------------------
+Base mesh info:
+	3D task
+	Nx=44
+	Ny=84
+	Nz=32
+	N(Nx*Ny*Nz) = 3696
+	Period    axis=[0, 0, 0]
+	Symmetry  ni=[0 0 0 0 0 0]
+	ZoomingBC ni=[0 0 0 0 0 0]
+	Nx=44
+		x[0]=-2.37529
+		x[1]=-2.21534
+		x[2]=-2.06309
+		x[3]=-1.91812
+		x[4]=-1.7801
+		x[5]=-1.64868
+		x[6]=-1.52355
+		x[7]=-1.40441
+		x[8]=-1.29096
+		x[9]=-1.18295
+		x[10]=-1.08011
+		x[11]=-0.982186
+		x[12]=-0.888949
+		x[13]=-0.800103
+		x[14]=-0.711256
+		x[15]=-0.622408
+		x[16]=-0.533561
+		x[17]=-0.444714
+		x[18]=-0.355866
+		x[19]=-0.267019
+		x[20]=-0.178171
+		x[21]=-0.0893239
+		x[22]=-0.000476447
+		x[23]=0.088371
+		x[24]=0.177218
+		x[25]=0.266066
+		x[26]=0.354913
+		x[27]=0.443761
+		x[28]=0.532608
+		x[29]=0.621456
+		x[30]=0.710303
+		x[31]=0.79915
+		x[32]=0.887998
+		x[33]=0.981227
+		x[34]=1.07914
+		x[35]=1.18198
+		x[36]=1.28999
+		x[37]=1.40344
+		x[38]=1.52258
+		x[39]=1.64771
+		x[40]=1.77914
+		x[41]=1.91717
+		x[42]=2.06215
+		x[43]=2.21441
+		x[44]=2.37428
+	Ny=84
+		y[0]=-7.44701
+		y[1]=-7.23903
+		y[2]=-7.04124
+		y[3]=-6.85307
+		y[4]=-6.67406
+		y[5]=-6.50377
+		y[6]=-6.34176
+		y[7]=-6.18765
+		y[8]=-6.04103
+		y[9]=-5.90155
+		y[10]=-5.76887
+		y[11]=-5.64264
+		y[12]=-5.52256
+		y[13]=-5.40832
+		y[14]=-5.29964
+		y[15]=-5.19625
+		y[16]=-5.0979
+		y[17]=-5.00168
+		y[18]=-4.90546
+		y[19]=-4.80924
+		y[20]=-4.71302
+		y[21]=-4.6168
+		y[22]=-4.52058
+		y[23]=-4.42436
+		y[24]=-4.32815
+		y[25]=-4.23193
+		y[26]=-4.13571
+		y[27]=-4.03949
+		y[28]=-3.94327
+		y[29]=-3.84705
+		y[30]=-3.75083
+		y[31]=-3.65461
+		y[32]=-3.55839
+		y[33]=-3.46217
+		y[34]=-3.36595
+		y[35]=-3.26973
+		y[36]=-3.17351
+		y[37]=-3.07729
+		y[38]=-2.98107
+		y[39]=-2.88485
+		y[40]=-2.78863
+		y[41]=-2.69241
+		y[42]=-2.59619
+		y[43]=-2.49997
+		y[44]=-2.40334
+		y[45]=-2.3067
+		y[46]=-2.21007
+		y[47]=-2.11343
+		y[48]=-2.0168
+		y[49]=-1.92017
+		y[50]=-1.82353
+		y[51]=-1.7269
+		y[52]=-1.63026
+		y[53]=-1.53363
+		y[54]=-1.43699
+		y[55]=-1.34036
+		y[56]=-1.24373
+		y[57]=-1.14709
+		y[58]=-1.05046
+		y[59]=-0.953823
+		y[60]=-0.857188
+		y[61]=-0.760554
+		y[62]=-0.66392
+		y[63]=-0.567285
+		y[64]=-0.470651
+		y[65]=-0.374017
+		y[66]=-0.277382
+		y[67]=-0.180748
+		y[68]=-0.0841136
+		y[69]=0.0125207
+		y[70]=0.109155
+		y[71]=0.205789
+		y[72]=0.302424
+		y[73]=0.399058
+		y[74]=0.495692
+		y[75]=0.592327
+		y[76]=0.688961
+		y[77]=0.785595
+		y[78]=0.88223
+		y[79]=0.978864
+		y[80]=1.06825
+		y[81]=1.16169
+		y[82]=1.25938
+		y[83]=1.3615
+		y[84]=1.46823
+	Nz=32
+		z[0]=-1.40122
+		z[1]=-1.25113
+		z[2]=-1.10835
+		z[3]=-0.972492
+		z[4]=-0.843216
+		z[5]=-0.720204
+		z[6]=-0.603154
+		z[7]=-0.491776
+		z[8]=-0.385795
+		z[9]=-0.28495
+		z[10]=-0.188992
+		z[11]=-0.0976844
+		z[12]=-0.0108014
+		z[13]=0.0718712
+		z[14]=0.151805
+		z[15]=0.231739
+		z[16]=0.311673
+		z[17]=0.391607
+		z[18]=0.471541
+		z[19]=0.551475
+		z[20]=0.634142
+		z[21]=0.72102
+		z[22]=0.812323
+		z[23]=0.908279
+		z[24]=1.00912
+		z[25]=1.1151
+		z[26]=1.22648
+		z[27]=1.34354
+		z[28]=1.46655
+		z[29]=1.59584
+		z[30]=1.73171
+		z[31]=1.8745
+		z[32]=2.02453
+-----------------------------------------------------------------------
+Input_mesh_settings--------------------------------
+Settings 0----------------
+	Scope: GLOBAL
+	Type:	------MESHER_SETTINGS----------
+	RefAllCells           =0
+	RefFluidCells         =0
+	RefPartCells          =0
+	RefSolidCells         =0
+	l_SSFR(Capture crit)  =1
+	l_curv(Curvature crit)=0
+	l_tol(Tolerance crit) =0
+	UseChannelRef         =1
+	  NCR_method          =0
+	  l_NCR               =1
+	  N_gap               =5
+	  Use d_NCR_min       =0
+	  Use d_NCR_max       =0
+	CloseThinSlotsHeight         =0
+	--END_OF_MESHER_SETTINGS-------
+End of input mesh settings-------------------------
+-----------------------------------------------------------------------
+Memory Working Set Current = 110.37 Mb, Memory Working Set Peak = 110.37 Mb
+Memory Private Bytes Current = 113.81 Mb, Memory Private Bytes Peak = 113.81 Mb
+Process Threads Number: 12
+-----------------------------------------------------------------------
+MMP (msh): locals=1, allc_sz=16.28 MB, used_sz=14.44 MB, blks-min-max=30/30
+MMP (brx): locals=6, allc_sz=15.12 MB, used_sz=13.61 MB, blks-min-max=13/21
+MMP (bcf): locals=0, allc_sz=0.00 MB, used_sz=0.00 MB, blks-min-max=0/0
+MMP (xsl): locals=0, allc_sz=0.00 MB, used_sz=0.00 MB, blks-min-max=0/0
+NxNyNz = [44, 84, 32]
+base_dx=0.107044; 
+NxNyNz_reverse = [44, 83, 32]
+
+-----------------------------------------------------------------------
+Refining geometries:
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+Refining by triangulation...
+Refinement input: 118272 bricks
+	Checking crit (118272 / 118272)...73 marked (0.069 s)
+	Time(refinement): 0.000 s
+Setting regions (584 / 118783)...OK (0.001 s)
+	Checking crit (0 / 118783)...0 marked (0.001 s)
+Refinement result (1 iterations): 118783 bricks (0.079 s)
+Refinement input: 118783 bricks
+	Checking crit (118199 / 118783)...0 marked (0.003 s)
+Refinement result (0 iterations): 118783 bricks (0.003 s)
+Collecting and processing rays:
+	Adding rays...OK (0.014 s)
+	new bricks = 118783 / 118783
+	new rays   = 8581 (x=2863, y=1608, z=4110)
+	Processing rays...
+		Rays process:  0.105 (0.105) s
+		Sort xstacks:  0.000 (0.000) s
+		Put xstacks:   0.001 (0.001) s
+		Total:         0.106 s
+	Correcting rays...
+		Lame vertices: 0.005 (0.005) s
+		Bad rays:      0.000 (0.000) s
+		Emit rays:     0.000 (0.000) s
+		Correct ray f: 0.000 (0.000) s
+		Undef:         0.000 (0.000) s
+		Sum:           0.005 (0.005) s
+		Total:         0.006 s
+	Time (rays): 0.128 s
+Capturing (118783 / 118783)...OK (0.004 s)
+Refining by triangulation takes 0.215 s
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+Refining peculiar surfaces...
+Collecting and processing rays:
+	Adding rays...OK (0.001 s)
+	new bricks = 0 / 118783
+	new rays   = 0 (x=0, y=0, z=0)
+	Processing rays...
+		Rays process:  0.000 (0.000) s
+		Sort xstacks:  0.000 (0.000) s
+		Put xstacks:   0.000 (0.000) s
+		Total:         0.000 s
+	Correcting rays...
+		Total:         0.000 s
+	Time (rays): 0.001 s
+Capturing (0 / 118783)...OK (0.001 s)
+0 surfaces refined
+Refining peculiar surfaces takes 0.003 s
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+Base mesh 1 Refining...
+Collecting and processing rays:
+	Adding rays...OK (0.000 s)
+	new bricks = 0 / 118783
+	new rays   = 0 (x=0, y=0, z=0)
+	Processing rays...
+		Rays process:  0.000 (0.000) s
+		Sort xstacks:  0.000 (0.000) s
+		Put xstacks:   0.000 (0.000) s
+		Total:         0.000 s
+	Correcting rays...
+		Total:         0.000 s
+	Time (rays): 0.001 s
+Capturing (0 / 118783)...OK (0.001 s)
+Refinement input: 118783 bricks
+	Checking crit (118199 / 118783)...0 marked (0.001 s)
+Refinement result (0 iterations): 118783 bricks (0.002 s)
+-----------------------------------------------------------------------
+Refining channels...
+FYI: CNarrowChannelRefiner::RefineChannels_PRLL
+Refinement input: 118783 bricks
+	Time(refinement): 0.000 s
+Setting regions (104 / 118874)...OK (0.001 s)
+Refinement result (1 iterations): 118874 bricks (0.008 s)
+Collecting and processing rays:
+	Adding rays...OK (0.001 s)
+	new bricks = 104 / 118874
+	new rays   = 94 (x=34, y=14, z=46)
+	Processing rays...
+		Rays process:  0.001 (0.001) s
+		Sort xstacks:  0.000 (0.000) s
+		Put xstacks:   0.000 (0.000) s
+		Total:         0.001 s
+	Correcting rays...
+		Lame vertices: 0.001 (0.001) s
+		Bad rays:      0.000 (0.000) s
+		Emit rays:     0.000 (0.000) s
+		Correct ray f: 0.000 (0.000) s
+		Undef:         0.000 (0.000) s
+		Sum:           0.001 (0.001) s
+		Total:         0.001 s
+	Time (rays): 0.003 s
+Capturing (104 / 118874)...OK (0.001 s)
+FYI: m_iteration_count = 0
+FYI: level1 statistics:
+     level1_cnt_plus[1]=104;		level1_cnt_minus[1]=0
+     level1_cnt_plus[2]=0;		level1_cnt_minus[2]=0
+     level1_cnt_plus[3]=0;		level1_cnt_minus[3]=0
+     level1_cnt_plus[4]=0;		level1_cnt_minus[4]=0
+     level1_cnt_plus[5]=0;		level1_cnt_minus[5]=0
+     level1_cnt_plus[6]=0;		level1_cnt_minus[6]=0
+     level1_cnt_plus[7]=0;		level1_cnt_minus[7]=0
+     level1_cnt_plus[8]=0;		level1_cnt_minus[8]=0
+     level1_cnt_plus[9]=0;		level1_cnt_minus[9]=0
+FYI: m_iteration_count = 1
+FYI: level1 statistics:
+     level1_cnt_plus[1]=104;		level1_cnt_minus[1]=0
+     level1_cnt_plus[2]=0;		level1_cnt_minus[2]=0
+     level1_cnt_plus[3]=0;		level1_cnt_minus[3]=0
+     level1_cnt_plus[4]=0;		level1_cnt_minus[4]=0
+     level1_cnt_plus[5]=0;		level1_cnt_minus[5]=0
+     level1_cnt_plus[6]=0;		level1_cnt_minus[6]=0
+     level1_cnt_plus[7]=0;		level1_cnt_minus[7]=0
+     level1_cnt_plus[8]=0;		level1_cnt_minus[8]=0
+     level1_cnt_plus[9]=0;		level1_cnt_minus[9]=0
+FYI: level1 statistics:
+     level1_cnt_plus[1]=104;		level1_cnt_minus[1]=0
+     level1_cnt_plus[2]=0;		level1_cnt_minus[2]=0
+     level1_cnt_plus[3]=0;		level1_cnt_minus[3]=0
+     level1_cnt_plus[4]=0;		level1_cnt_minus[4]=0
+     level1_cnt_plus[5]=0;		level1_cnt_minus[5]=0
+     level1_cnt_plus[6]=0;		level1_cnt_minus[6]=0
+     level1_cnt_plus[7]=0;		level1_cnt_minus[7]=0
+     level1_cnt_plus[8]=0;		level1_cnt_minus[8]=0
+     level1_cnt_plus[9]=0;		level1_cnt_minus[9]=0
+
+-----------------------------------------------------------------------
+U-shapes refinement...
+Refinement input: 118874 bricks
+	Checking crit (118186 / 118874)...0 marked (0.007 s)
+Refinement result (0 iterations): 118874 bricks (0.008 s)
+Collecting and processing rays:
+	Adding rays...OK (0.001 s)
+	new bricks = 0 / 118874
+	new rays   = 0 (x=0, y=0, z=0)
+	Processing rays...
+		Rays process:  0.000 (0.000) s
+		Sort xstacks:  0.000 (0.000) s
+		Put xstacks:   0.000 (0.000) s
+		Total:         0.000 s
+	Correcting rays...
+		Total:         0.000 s
+	Time (rays): 0.001 s
+Capturing (0 / 118874)...OK (0.001 s)
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+Equi Distant Refiner:
+Equi Distant Refiner takes 0.00 s
+-----------------------------------------------------------------------
+
+/-Ray Intersection---------------/ Time	0.592 s
+Calls                8675
+CorrectRay Calls     0
+
+
+
+-----------------------------------------------------------------------
+Refining geometries takes 0.309 s
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Memory Working Set Current = 121.36 Mb, Memory Working Set Peak = 121.36 Mb
+Memory Private Bytes Current = 123.88 Mb, Memory Private Bytes Peak = 123.88 Mb
+Process Threads Number: 12
+-----------------------------------------------------------------------
+Defect ray count	0
+FYI: CNarrowChannelRefiner::RedistributeLevel1_step_1: is started
+FYI: CNarrowChannelRefiner::RedistributeLevel1_step_1: is finished (0.001 s)
+FYI: level1 statistics:
+     level1_cnt_plus[1]=104;		level1_cnt_minus[1]=0
+     level1_cnt_plus[2]=0;		level1_cnt_minus[2]=0
+     level1_cnt_plus[3]=0;		level1_cnt_minus[3]=0
+     level1_cnt_plus[4]=0;		level1_cnt_minus[4]=0
+     level1_cnt_plus[5]=0;		level1_cnt_minus[5]=0
+     level1_cnt_plus[6]=0;		level1_cnt_minus[6]=0
+     level1_cnt_plus[7]=0;		level1_cnt_minus[7]=0
+     level1_cnt_plus[8]=0;		level1_cnt_minus[8]=0
+     level1_cnt_plus[9]=0;		level1_cnt_minus[9]=0
+FYI: CNarrowChannelRefiner::RedistributeLevel1_step_2: is started
+FYI: CNarrowChannelRefiner::RedistributeLevel1_step_2: is finished (0.049 s)
+FYI: level1 statistics:
+     level1_cnt_plus[1]=104;		level1_cnt_minus[1]=0
+     level1_cnt_plus[2]=0;		level1_cnt_minus[2]=0
+     level1_cnt_plus[3]=0;		level1_cnt_minus[3]=0
+     level1_cnt_plus[4]=0;		level1_cnt_minus[4]=0
+     level1_cnt_plus[5]=0;		level1_cnt_minus[5]=0
+     level1_cnt_plus[6]=0;		level1_cnt_minus[6]=0
+     level1_cnt_plus[7]=0;		level1_cnt_minus[7]=0
+     level1_cnt_plus[8]=0;		level1_cnt_minus[8]=0
+     level1_cnt_plus[9]=0;		level1_cnt_minus[9]=0
+FYI: CNarrowChannelRefiner::RedistributeLevel1_step_3: is started
+FYI: CNarrowChannelRefiner::RedistributeLevel1_step_3: is finished (0.026 s)
+RedistributeLevel1 takes:
+FYI: level1 statistics:
+     level1_cnt_plus[1]=104;		level1_cnt_minus[1]=112
+     level1_cnt_plus[2]=0;		level1_cnt_minus[2]=0
+     level1_cnt_plus[3]=0;		level1_cnt_minus[3]=0
+     level1_cnt_plus[4]=0;		level1_cnt_minus[4]=0
+     level1_cnt_plus[5]=0;		level1_cnt_minus[5]=0
+     level1_cnt_plus[6]=0;		level1_cnt_minus[6]=0
+     level1_cnt_plus[7]=0;		level1_cnt_minus[7]=0
+     level1_cnt_plus[8]=0;		level1_cnt_minus[8]=0
+     level1_cnt_plus[9]=0;		level1_cnt_minus[9]=0
+-----------------------------------------------------------------------
+MSH format builder (Iteration 0)
+-----------------------------------------------------------------------
+Memory Working Set Current = 124.14 Mb, Memory Working Set Peak = 124.14 Mb
+Memory Private Bytes Current = 126.73 Mb, Memory Private Bytes Peak = 126.73 Mb
+Process Threads Number: 12
+-----------------------------------------------------------------------
+Total bricks count: 118874
+-----------------------------------------------------------------------
+MSH (Real Geometry) format constructor:
+	Geom    Count = 2
+	Bodyset Count = 2
+	3D task
+	Getting brick sets...OK (0.003 s)
+
+	Min x-stack xeps = 1.65705e-05
+	D / dh / eps [axis=0] = (4.74957, 0.044423, 5.52349e-06)
+	D / dh / eps [axis=1] = (8.91524, 0.0481098, 5.52349e-06)
+	D / dh / eps [axis=2] = (3.42575, 0.039967, 5.52349e-06)
+	Time (xeps): 0.001 s
+Level 1
+	Set (0)  size: 344
+	Set (0)  time: 0.009 s
+	Set (1)  size: 344
+	Set (1)  time: 0.006 s
+Level 0
+	Set (0)  size: 59093
+	Set (0)  time: 0.040 s
+	Set (1)  size: 59093
+	Set (1)  time: 0.038 s
+
+	Spread npq bricks...1 marked (0.001 s)
+
+Result:
+	Bricks number:                        118874
+
+	Memory usage:                         2.681 MB
+	Memory usage (per brick):             0.023 KB
+	Construction time:                    0.099 s
+
+	Topology features:
+	------------------
+	- High quality bricks                  100.00 % (118872)
+	- Medium quality bricks                  0.00 % (2)
+	- Bad quality bricks                     0.00 % (0)
+	- NPQ bricks                             0.00 % (5)
+	- Type-1 bricks                          2.29 % (2723)
+	- Ribs corrected bricks                  0.00 % (0)
+	- Points with geom-info (bricks)         0.00 % (5)
+	- Points with closest-info (bricks)      0.00 % (2)
+	- Triangulated by center (bricks)        0.00 % (2)
+	- Facet w-faces mergings (bricks)        0.00 % (0)
+	- To refine (bricks)                     0.00 % (0)
+	- Points-count                           0.00 % (0)
+	- T-self-intersection-all (bricks)       0.00 % (0)
+	- T-self-intersection-simple (bricks)    0.00 % (0)
+	- T-self-intersection-complex (bricks)   0.00 % (0)
+	- NPQ by reason 1 u-shape                0.00 % (3)
+	- NPQ by reason 2 tri-by-ctr             0.00 % (0)
+	- NPQ by reason 3 ray-correction         0.00 % (0)
+	- NPQ by reason 4 t-self-intersection    0.00 % (0)
+	- NPQ by reason 5 non-good               0.00 % (2)
+	- NPQ by reason 6 npq-worker             0.00 % (0)
+
+-----------------------------------------------------------------------
+Memory Working Set Current = 132.64 Mb, Memory Working Set Peak = 132.64 Mb
+Memory Private Bytes Current = 134.27 Mb, Memory Private Bytes Peak = 134.27 Mb
+Process Threads Number: 12
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+msh-iterations: 1
+-----------------------------------------------------------------------
+high---q-brick-count = 100.00 % (118874 118872)
+medium-q-brick-count =   0.00 % (118874 2)
+bad----q-brick-count =   0.00 % (118874 0)
+np-----q-brick-count =   0.01 % (118874 6)
+-----------------------------------------------------------------------
+Free brick parser storage...OK(0.001 s)
+-----------------------------------------------------------------------
+Memory Working Set Current = 132.69 Mb, Memory Working Set Peak = 132.69 Mb
+Memory Private Bytes Current = 134.27 Mb, Memory Private Bytes Peak = 134.27 Mb
+Process Threads Number: 12
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+MSH --> BCF format (Iteration 0)...
+BCF collector...(remove mode=0)
+	Time (alloc counter per brick): 0.002 s
+	Brick    count: 118874
+	Av.f all count: 118344
+	Av.s all count: 3381
+	Av.f pid count: 2831
+	Av.s pid count: 2743
+	Faces fs count: 6660
+	Faces ff count: 0
+	Faces ss count: 0
+	Faces bb count: 0
+	Faces fe count: 15584
+	Faces se count: 0
+	Faces fw count: 22244
+	Faces af count: 346244
+	Faces as count: 8872
+	Time (all count): 	0.006 s
+	Time (bcf alloc): 	0.001 s
+	Time (shifts alloc): 	0.003 s
+	Time (shifts init): 	0.003 s
+	Time (bcf fill): 	0.016 s
+	Time (add av to faces): 0.001 s
+	Time (add faces to av): 0.008 s
+Time (bcf collect): 		0.043 s
+	AV checker...
+		Hole marker...
+			Subdomains:               1.
+			Subdomains (cond):        1.
+			Time (sd):      0.019 s.
+			Time (sd_cond): 0.017 s.
+			Time (potential-hole marking): 	0.002 s
+			Time (hole checking): 0.000 s.
+			0 av(s) are marked to fill subdomain holes.
+		Time (hole marker): 0.041 s.
+	Time (check av): 	0.067 s
+	Subdomain checker...
+		Subdomains construction time: 0.015 s.
+		Subdomains sort time: 0.000 s.
+			Subdomain 0 (geom_ind=0): 118344 av
+			Subdomain 1 (geom_ind=1): 3381 av
+		gi: 0, real bodies: 1
+		gi: 0, subdomains:  1
+		gi: 1, real bodies: 0
+		gi: 1, subdomains:  1
+		Defect subdomains: 0
+	Time (check subdoms): 	0.018 s
+Time (bcf iteration total): 	0.130 s
+	Time (fw-nb): 		0.001 s
+	Fixed mutual fw-nb:     4483 (bb: 0)
+	Time (fw-nb mutual): 	0.001 s
+	Time (fw-nb sort): 	0.000 s
+	Fw-opt BEFORE total:    22244 (fs=6660, ff=0, ss=0)
+	Fw-opt AFTER  total:    19480 (fs=3896, ff=0, ss=0, failed fw/br=141/0, big_curv=4, big_poly=0)
+	Fw-opt RESULT:          2764 (res/(fs+ff+ss) = 41.50 %)
+	Time (fw-opt): 		0.003 s
+	Time (fw-re-order): 	0.002 s
+	Time (fw-nb): 		0.004 s
+	Fixed mutual fw-nb:     38901 (bb: 0)
+	Time (fw-nb mutual): 	0.002 s
+	Time (fw-nb sort): 	0.001 s
+	Time (rfd fix): 	0.000 s
+	Time (av convexity): 	0.001 s
+	Time (av small volume): 0.001 s
+	Time (diagonal fw-nb): 	0.018 s
+	Fixed mutual fw-nb:     0 (bb: 0)
+	Time (fw-nb mutual): 	0.002 s
+	Time (fw-nb sort): 	0.001 s
+	Fluid subdomains: 1
+	Faces fw-nb diff sd:    0
+	Time (fw-nb diff sd): 	0.019 s
+Time (bcf calc): 		0.063 s
+-----------------------------------------------------------------------
+Time (bcf total): 		0.193 s
+-----------------------------------------------------------------------
+bcf-iterations: 1
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Mega-cv constructor for fluid...
+	 18 av's is treated as thin
+Relative size generator (threshold = 0.05)...
+	Iteration 1 (small cluster count = 805)
+	Iteration 2 (small cluster count = 423)
+	Iteration 3 (small cluster count = 108)
+	Iteration 4 (small cluster count = 20)
+	Iteration 5 (small cluster count = 0)
+	 758 mega-cv's generated
+	 10 mega-cv's removed
+Relative size generator is completed OK (0.006 s)
+Apply fa-rules to mega-cv clusters fixes...
+	Fa-rule violation fixes:        9 of        9 (total cluster# =      757)
+OK (0.001 s)
+There are 2 clusters with nbrs connected in more than one axis
+Convert clusters:
+	 750 mega-cv's total
+Mega-cv count: 750
+Time (mega-cv fill): 	0.001 s
+Time (mega-cv total): 	0.028 s
+-----------------------------------------------------------------------
+Mixing plane rotation regions: NO.
+Sliding mesh rotation regions: NO.
+Fluid/fluid faces: NO.
+-----------------------------------------------------------------------
+Memory Working Set Current = 162.06 Mb, Memory Working Set Peak = 183.83 Mb
+Memory Private Bytes Current = 190.94 Mb, Memory Private Bytes Peak = 193.91 Mb
+Process Threads Number: 12
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays):
+MESH (0):
+	Fluid Subdom Constructor: 1 subdom(s).
+	Solid Subdom Constructor: 1 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 Fluid av=118344 cv=117538 fa=346244 fb=0 fw=19480 V=1.437884e+02
+	Cache data...OK
+	GEOMSUBDOM (1): gi=1 Solid av=3381 cv=3381 fa=8872 fb=0 fw=3896 V=1.269845e+00
+	Cache data...OK
+	Setting nb of w-faces...OK (0.004 s).
+	Correcting nb of w-faces...
+	Time(correct_fw_nb)=0.004 s
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=3936.2391361444351787 fb_s=0.0000000000000000 fw_s=196.2923678028132883 fw_nb=157010
+	              :d_const(69746)=6.57805e-09 d_linear(69746)=2.00528e-08
+	GEOMSUBDOM (1):fa_s=42.1783221751218349 fb_s=0.0000000000000000 fw_s=17.9809332632920658 fw_nb=32362
+	              :d_const(2534)=3.10252e-08 d_linear(2534)=6.2286e-08
+MESH (0) checking: OK.
+Time (MDS): 	0.125 s
+----------------------------------------------------------
+-----------------------------------------------------------------------
+Memory Working Set Current = 201.52 Mb, Memory Working Set Peak = 201.52 Mb
+Memory Private Bytes Current = 228.00 Mb, Memory Private Bytes Peak = 228.00 Mb
+Process Threads Number: 12
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+BCF CHECKSUM DATA (Mesh 0):
+
+BRICK |Level1| Sum:               216
+FACE_A Area Sum:   G.Fluid        3936.2391361444401809
+FACE_A Area Sum:   G.Solid        42.1783221751218278
+FACE_W Area Sum:                  196.2923678028132883
+FACE_W Nb   Sum:                  157010
+FACE_W min curvatures sum:        -7167052281350.79980469
+FACE_W max curvatures sum:        2971954553.87030411
+AV Max Disbalance(Const) :        3.10252e-08 (cid=69458, t={25, 106, 37}, avid=121462, pid=2483)
+AV Max Disbalance(Linear):        6.2286e-08 (cid=69458, t={25, 106, 37}, avid=121462, pid=2483)
+-----------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------
+MESHER TOPOLOGY DATA:
+
+BRICKS: Total                 118874
+BRICKS: Fluid                 118236
+BRICKS: Fluid Partial         2723
+BRICKS: Type 1                2723
+BRICKS: Max AV number         4
+
+AV:     G.Total               121725
+AV:     G.Fluid               118344
+AV:     G.Solid               3381
+
+AV:     G.Fluid Thin Profile    0.02 % (20)
+AV:     G.Solid Thin Profile    3.19 % (108)
+
+AV:     G.Fluid Thin For Mega   0.02 % (18)
+AV:     G.Solid Thin For Mega   2.07 % (70)
+
+AV:     G.Fluid Non-Convex      1.15 % (1360)
+AV:     G.Solid Non-Convex     36.50 % (1234)
+
+AV:     G.Fluid Non-Ess-Convex      0.52 % (615)
+AV:     G.Solid Non-Ess-Convex     12.13 % (410)
+
+FACE_A: G.Fluid          (af) 346244 (partially opened 5721)
+FACE_A: G.Solid          (as) 8872 (partially opened 5587)
+
+FACE_B: G.Total          (b)  0
+
+FACE_W: G.Total                 19480       Brick/Bound
+FACE_W: G.Fluid/Solid    (fs_g) 3896        0           
+FACE_W: G.Fluid/Fluid    (ff_g) 0           0           
+FACE_W: G.Solid/Solid    (ss_g) 0           0           
+FACE_W: G.Fluid/Void     (fv_g) 0           0           
+FACE_W: G.Fluid/External (fe_g) 15584
+FACE_W: G.Solid/External (se_g) 0
+
+AV/CV max fa count (on brick side):4
+AV/CV max fw count:                4
+AV/CV max fb count:                0
+AV/CV max fw poly count:           68
+
+MEMORY: Total                   35.665 MB
+MEMORY: Per Brick               0.307 KB
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+Connectivities information:
+	Number of conns: 0
+-----------------------------------------------------------------------
+	Time (gap size): 	0.030 s
+-----------------------------------------------------------------------
+Memory Working Set Current = 201.57 Mb, Memory Working Set Peak = 201.57 Mb
+Memory Private Bytes Current = 228.00 Mb, Memory Private Bytes Peak = 228.00 Mb
+Process Threads Number: 12
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+Calculating curvature and tolerance criteria...
+Curvature: min=0 (cid=0) max=3.14159 (cid=69458)
+Tolerance: min=0 (cid=0) max=0.0492288 (cid=57889)
+Calculating curvature and tolerance criteria takes 0.102 s
+-----------------------------------------------------------------------
+MESH Build(FS) finished. Time=1.040 s
+-----------------------------------------------------------------------
+Current CPU = 1 sec
+
+Nx=44
+Ny=84
+Nz=32
+Max BRICK Level=1
+Mesh Level=1
+-----------------CModelBodies2MeshMapper::CollectData started -------------------------------
+	Time (collect mesh base data): 0.002 s.
+	Time (collect model bodies mapping): 0.000 s.
+	Time (collect positive bodies mapping): 0.000 s.
+	Time (collect fluid bodies mapping): 0.000 s.
+-----------------CModelBodies2MeshMapper Report -------------------------------
+FluidDomains 1 SolidDomains 1 VoidDomains 0 
+Domains RefIndexes
+----------------- -------------------------------
+	ModelBodies
+Total resolved Bodies 0 BodySets 0
+
+--------------------------------------------------------------------------
+	Positive geometry Bodies
+Total resolved Bodies 1 BodySets 1
+BodySet 0
+	Bodies list:
+			#0	Name: ;	ID: 50ebc2b4-d43f-4980-84e2-8d4fca3d4247
+	Domains list:mesh type	 (0, 1)		 0 
+
+
+--------------------------------------------------------------------------
+	Fluid regions
+Total resolved Bodies 1 BodySets 1
+BodySet 0	Material: Air; 
+	Bodies list:
+			#0	Name: ;	ID: 50ebc2b4-d43f-4980-84e2-8d4fca3d4247
+	Domains list:mesh type	 (0, 1)		 0 
+
+
+--------------------------------------------------------------------------
+Collect data takes...0.003 s
+-----------------CModelBodies2MeshMapper::CollectData finished successfully-------------------
+Saving initial mesh in: C:\Users\juded\OneDrive\Desktop\Car shit\24\24.fld .
+Storing results...
+	Estimated CPT size=13.425 MB.
+	Time (write bcf): 0.313 s
+Storing results takes 0.324 s
+-----------------------------------------------------------------------
+Memory Working Set Current = 201.87 Mb, Memory Working Set Peak = 201.87 Mb
+Memory Private Bytes Current = 228.00 Mb, Memory Private Bytes Peak = 228.00 Mb
+Process Threads Number: 12
+-----------------------------------------------------------------------
+Cleaning memory...
+-----------------------------------------------------------------------
+Start to free mesher data...
+MMP (msh): locals=4, allc_sz=16.41 MB, used_sz=14.53 MB, blks-min-max=1/30
+MMP (brx): locals=6, allc_sz=18.44 MB, used_sz=16.44 MB, blks-min-max=15/22
+MMP (bcf): locals=6, allc_sz=53.10 MB, used_sz=51.48 MB, blks-min-max=20/44
+MMP (xsl): locals=6, allc_sz=0.21 MB, used_sz=0.15 MB, blks-min-max=2/2
+Free xsl...            OK	Time=0.000 s
+Free ray collector...  OK	Time=0.000 s
+Free ray intersector...OK	Time=0.000 s
+Free body sets...      OK	Time=0.014 s
+Free Geometry DB takes 0.000 s
+Free mesh conn...      OK	Time=0.000 s
+Free geomsd...         OK	Time=0.000 s
+Free mbricks...        OK	Time=0.001 s
+Free hash info...      OK	Time=0.001 s
+Free bricks-x...       OK	Time=0.001 s
+Free bcf...            OK	Time=0.004 s
+Free mesh h...         OK	Time=0.000 s
+Free bricks arr..      OK	Time=0.000 s
+Free bricks tree...    OK	Time=0.000 s
+Free mesh pools...     OK	Time=0.010 s
+Free bodies mapper...  OK	Time=0.000 s
+Free geom crits...     OK	Time=0.000 s
+Free cpt regions...    OK	Time=0.000 s
+Free peculiar surfs... OK	Time=0.000 s
+Free sw-geometries...  OK	Time=0.000 s
+Total free mesher data time: 0.035 s
+-----------------------------------------------------------------------
+Copying... OK
+CPT size=4.370 MB (4582497 bytes).
+Mesh generation normally finished at	14.12.2024	21:34:19
+Mesher CPU = 2 sec
+Mesher is finished at	14.12.2024	21:34:19
+-----------------------------------------------------------------------
+Memory Working Set Current = 38.11 Mb, Memory Working Set Peak = 201.87 Mb
+Memory Private Bytes Current = 59.22 Mb, Memory Private Bytes Peak = 228.00 Mb
+Process Threads Number: 12
+-----------------------------------------------------------------------
+Algebra Pool      : mem_usage = 3.38 Mb, allocated count = 0
+-----------------------------------------------------------------------
+Memory Working Set Current = 34.90 Mb, Memory Working Set Peak = 201.87 Mb
+Memory Private Bytes Current = 55.91 Mb, Memory Private Bytes Peak = 228.00 Mb
+Process Threads Number: 12
+Process Threads Number Peak: 12
+-----------------------------------------------------------------------
+Log ended at 14.12.2024	21:34:19

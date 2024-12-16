@@ -1,0 +1,7 @@
+2024-Dec-14 21:36:12
+Computer name:	DESKTOP-C408A46
+Number of cores used in calculation:	6
+Configuration name:	Default
+Project name:	Project(1)
+
+Warnings on last iteration: 

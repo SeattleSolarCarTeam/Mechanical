@@ -1,0 +1,89 @@
+{
+    "version": 0,
+    "model_name": "fishtail cadamaran v22.SLDPRT",
+    "project_name": "Project(1)",
+    "config_name": "Default",
+    "project_path": "C:\\Users\\juded\\OneDrive\\Desktop\\Car shit\\24\\24.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 118344,
+        "cells_fluid": 118344,
+        "cells_solid": 3381,
+        "cells_fluid_containing_solid": 2831
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "21:34:24-0800",
+        "prepare_geometry_total_time": 5,
+        "cpu_time_solver_total": 115,
+        "iteration": 144,
+        "travel": 1.4665056821370073,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "21:36:11-0800",
+        "cpu_time_per_last_iter": 1,
+        "cpu_time_left": 9,
+        "iterations_per_travel": 99
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Force 1",
+                "unit": "force",
+                "value": 59.129241450130294,
+                "progress": 100.0,
+                "criteria": 0.6425485184221873,
+                "delta": 0.6421088980890062,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Y) 2",
+                "unit": "force",
+                "value": 40.28698535585944,
+                "progress": 100.0,
+                "criteria": 1.0455335690782592,
+                "delta": 0.4591856686521538,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Z) 3",
+                "unit": "force",
+                "value": 43.269133840605086,
+                "progress": 100.0,
+                "criteria": 2.0482622570156463,
+                "delta": 0.570643021741553,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2023  x64 / 5965 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2023 SP2.1",
+        "computer_name": "DESKTOP-C408A46",
+        "user_name": "juded",
+        "os": "Windows 11 (or higher) (Version 10.0.22631)",
+        "cpu": "Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz",
+        "number_of_cores": 6,
+        "memory_avail": 17723,
+        "memory_total": 32672
+    }
+}

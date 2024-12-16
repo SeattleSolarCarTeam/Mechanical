@@ -1,0 +1,55 @@
+Model: fishtail cadamaran v18.SLDPRT
+Project name: Project(1)
+Config name: Default
+Project path: C:\Users\juded\OneDrive\Desktop\Car shit\21\21.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 121039
+    Fluid cells: 121039
+    Solid cells: 3284
+    Fluid cells containing solids: 2758
+
+
+Geometry preparation finished: 20:20:26
+Geometry preparation time: 00:00:03
+Solver CPU time: 00:01:52
+Iterations: 123
+Travels: 1.24327
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 20:22:12
+CPU time per last iteration: 00:00:01
+CPU time left: 00:00:02
+Iterations per 1 travel: 99
+
+Goals
+    Name           | Unit (SI) | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Force 1     | force    |           72.51 |     100.0 |            0.63 |            0.39 | On
+    GG Force (Y) 2 | force    |          -34.67 |     100.0 |            1.34 |            0.59 | On
+    GG Force (Z) 3 | force    |          -63.67 |     100.0 |            0.80 |            0.76 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2023  x64 / 5965 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2023 SP2.1
+    Computer name: DESKTOP-C408A46
+    User name: juded
+    Operating system: Windows 11 (or higher) (Version 10.0.22631)
+    Processors: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+    Number of cores: 6
+    Memory: 16746 MB / 32672 MB
+
