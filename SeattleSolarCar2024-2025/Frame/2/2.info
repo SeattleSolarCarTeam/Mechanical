@@ -1,0 +1,55 @@
+Model: silly v2.SLDPRT
+Project name: Project(1)
+Config name: Default
+Project path: C:\Users\juded\OneDrive\Documents\GitHub\Mechanical\SeattleSolarCar2024-2025\Frame\2\2.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 96573
+    Fluid cells: 96573
+    Solid cells: 2485
+    Fluid cells containing solids: 3616
+
+
+Geometry preparation finished: 23:17:18
+Geometry preparation time: 00:00:03
+Solver CPU time: 00:01:18
+Iterations: 99
+Travels: 1.07891
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 23:18:30
+CPU time per last iteration: 00:00:00
+CPU time left: 00:00:00
+Iterations per 1 travel: 92
+
+Goals
+    Name           | Unit (SI) | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Force (X) 1 | force    |          160.85 |     100.0 |           94.22 |           10.64 | On
+    GG Force (Z) 2 | force    |            2.87 |     100.0 |           14.08 |           13.75 | On
+    GG Force 3     | force    |          160.87 |     100.0 |           95.12 |            9.90 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2023  x64 / 5965 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2023 SP2.1
+    Computer name: DESKTOP-C408A46
+    User name: juded
+    Operating system: Windows 11 (or higher) (Version 10.0.22631)
+    Processors: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz
+    Number of cores: 6
+    Memory: 18950 MB / 32672 MB
+
