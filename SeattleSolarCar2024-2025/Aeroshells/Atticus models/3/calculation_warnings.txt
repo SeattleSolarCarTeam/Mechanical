@@ -1,0 +1,7 @@
+2024-Dec-04 16:58:18
+Computer name:	ATTICUSCAUD214E
+Number of cores used in calculation:	4
+Configuration name:	Default
+Project name:	Project(1)
+
+Warnings on last iteration: 

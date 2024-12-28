@@ -1,0 +1,55 @@
+Model: fishtail test v2.SLDPRT
+Project name: Project(1)
+Config name: Default
+Project path: X:\2024-25 Solar Car\3\3.xmlconfig
+Status: Calculating
+
+Number of cells:
+    Total cells: 75882
+    Fluid cells: 75882
+    Solid cells: 1819
+    Fluid cells containing solids: 1375
+
+
+Geometry preparation finished: 17:17:43
+Geometry preparation time: 00:00:57
+Solver CPU time: 00:40:32
+Iterations: 173
+Travels: 2.04316
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 17:57:10
+CPU time per last iteration: 00:00:07
+CPU time left: 00:30:28
+Iterations per 1 travel: 85
+
+Goals
+    Name           | Unit (SI) | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Force (X) 1 | force    |            0.04 |      30.9 |            0.19 |            0.61 | On
+    GG Force (Y) 2 | force    |           20.40 |     100.0 |            0.97 |            0.16 | On
+    GG Force (Z) 3 | force    |           51.39 |     100.0 |            0.98 |            0.26 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2023  x64 / 5965 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2023 SP2.1
+    Computer name: ATTICUSCAUD214E
+    User name: atticuscaudle
+    Operating system: Windows 11 (or higher) (Version 10.0.22000)
+    Processors:                           Virtual CPU @ 3.20GHz
+    Number of cores: 4
+    Memory: 1388 MB / 4091 MB
+

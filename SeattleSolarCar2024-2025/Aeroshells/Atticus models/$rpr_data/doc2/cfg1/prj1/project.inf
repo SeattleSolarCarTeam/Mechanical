@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>Project(1)</name>
+	<uuid>c8f280cf-7f92-4b4a-b2dc-102d6601d841</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>2</vwr_res_files_dir>
+	<geom_db_uuid>0102cd87-e000-40a7-91ca-68beb7ed4841</geom_db_uuid>
+	<gdb_light_uuid>b751a375-b6ca-4185-91c3-c3319df6d9a0</gdb_light_uuid>
+	<model_geom_uuid>46295224-6071-461a-ae8c-3351da983040</model_geom_uuid>
+	<template_id/>
+</project>

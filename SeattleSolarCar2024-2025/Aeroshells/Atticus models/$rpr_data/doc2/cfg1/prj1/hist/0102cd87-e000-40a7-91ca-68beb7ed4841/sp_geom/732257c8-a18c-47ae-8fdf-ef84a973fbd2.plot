@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature>
+	<version>1</version>
+	<uuid>4c83d0fa-a76e-4393-87d2-5e0ec47bcc22</uuid>
+	<name>Surface Plot 1 Geometry</name>
+	<type>15</type>
+	<res_file_key>732257c8-a18c-47ae-8fdf-ef84a973fbd2</res_file_key>
+	<cs_name/>
+	<cs_uuid/>
+	<x_form>
+		<global>true</global>
+		<origin>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+		</origin>
+		<translate>
+			<item>1</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>1</item>
+			<item>0</item>
+			<item>0</item>
+			<item>0</item>
+			<item>1</item>
+		</translate>
+	</x_form>
+	<display_bl>false</display_bl>
+	<interpolate>true</interpolate>
+	<use_cad_geom>true</use_cad_geom>
+	<moving_reference>true</moving_reference>
+	<moving_display>true</moving_display>
+	<full_task>false</full_task>
+	<use_in_BRP>false</use_in_BRP>
+	<use_all_faces>true</use_all_faces>
+	<geom_ref/>
+	<domain_filter>
+		<enabled>false</enabled>
+		<keep>true</keep>
+		<type>0</type>
+		<domains/>
+	</domain_filter>
+	<medias>
+		<item>1</item>
+	</medias>
+</feature>
