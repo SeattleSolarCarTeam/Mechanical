@@ -29,8 +29,8 @@
 <JouleHeating value="0"/>
 <LicenseType value="0"/>
 <ManualSolverRefinement value="0"/>
-<MinimalGapSize value="0.75180337271939002"/>
-<MinimalWallThickness value="0.75180337271939002"/>
+<MinimalGapSize value="0.75204113513549453"/>
+<MinimalWallThickness value="0.75204113513549453"/>
 <NewCalcStartCptName value=""/>
 <PerformanceMonitoring value="0"/>
 <PostConfigName value="Default<As Machined>"/>
@@ -57,7 +57,7 @@
 <UsingUNM value="0"/>
 <WallSlipping value="0"/>
 <ComputationalDomainSidesBCTypes size="6"> 0 0 0 0 0 0 </ComputationalDomainSidesBCTypes>
-<ComputationalDomainSize size="6"> -2.2571306488113319 -3.1572061766694546 -3.759029154592644 4.0571306260735085 2.1054174323662753 7.2554224091538639 </ComputationalDomainSize>
+<ComputationalDomainSize size="6"> -2.2611335635908691 -3.158131179474057 -3.7602162031859359 4.0611303237324314 2.1061567664744048 7.2561339329149472 </ComputationalDomainSize>
 <DefaultFluids size="1"> 2B966F4A9A9F11D4A50048A0E8000000 </DefaultFluids>
 <DisabledBodiesIDs size="0"> </DisabledBodiesIDs>
 <FluidSubstancesUUID size="1"> 2B966F4A9A9F11D4A50048A0E8000000 </FluidSubstancesUUID>
@@ -1887,25 +1887,25 @@
 <RefinementLevel value="0"/>
 <SolidCellsRefinementLevel value="0"/>
 <ToleranceCriteriaRefinementLevel value="0"/>
-<ToleranceCriteriaValue value="0.1879508431798475"/>
+<ToleranceCriteriaValue value="0.18801028378387363"/>
 <DistanceRefinementLevels size="2"> 0 0 </DistanceRefinementLevels>
 <ControlPoints index="0">
 <Manual size="5"> 0 0 0 0 0 </Manual>
 <NumOfCells size="5"> 10 5 5 14 1 </NumOfCells>
-<Points size="5"> -2.2571306488113319 0.016313879732523181 0.89999998863108832 1.7836860975296533 4.0571306260735085 </Points>
-<Ratio size="5"> 1.734 1 1 0.57682351664722031 1 </Ratio>
+<Points size="5"> -2.2611335635908691 0.01309001258071768 0.89999838007078137 1.7869067475608449 4.0611303237324314 </Points>
+<Ratio size="5"> 1.7330000000000001 1 1 0.57688428454137963 1 </Ratio>
 </ControlPoints>
 <ControlPoints index="1">
 <Manual size="5"> 0 0 0 0 0 </Manual>
 <NumOfCells size="5"> 10 2 2 15 1 </NumOfCells>
-<Points size="5"> -3.1572061766694546 -0.89427802478409057 -0.52589437215158952 -0.1575107195190884 2.1054174323662753 </Points>
+<Points size="5"> -3.158131179474057 -0.89448736271621854 -0.52598720649982622 -0.15748705028343385 2.1061567664744048 </Points>
 <Ratio size="5"> 1.8149999999999999 1 1 0.55087127599775143 1 </Ratio>
 </ControlPoints>
 <ControlPoints index="2">
 <Manual size="5"> 0 0 0 0 0 </Manual>
 <NumOfCells size="5"> 10 25 16 13 1 </NumOfCells>
-<Points size="5"> -3.759029154592644 -1.5036190364344741 2.5 5.1503729655395718 7.2554224091538639 </Points>
-<Ratio size="5"> 1.6830000000000001 1 1 0.6119530360050891 1 </Ratio>
+<Points size="5"> -3.7602162031859359 -1.5040927977794525 2.5 5.1504187545355622 7.2561339329149472 </Points>
+<Ratio size="5"> 1.6830000000000001 1 1 0.61195169244081205 1 </Ratio>
 </ControlPoints>
 </BaseMeshSettings>
 <ConvergenceOptions index="0">
@@ -2923,8 +2923,8 @@
 </ExcelParameter>
 </ExcelParameterCollection>
 <ExportProjectToNastran index="0">
-<ExportProjectToNastran_FilePath value="E:\2024-25 Solar Car\Aero models\2\Project(1).dat"/>
-<ExportProjectToNastran_NastranSolverOutputDirectory value="E:\2024-25 Solar Car\Aero models\2\nastran"/>
+<ExportProjectToNastran_FilePath value="C:\Users\attic\Documents\GitHub\Mechanical\SeattleSolarCar2024-2025\Aeroshells\Atticus models\2\Project(1).dat"/>
+<ExportProjectToNastran_NastranSolverOutputDirectory value="C:\Users\attic\Documents\GitHub\Mechanical\SeattleSolarCar2024-2025\Aeroshells\Atticus models\2\nastran"/>
 </ExportProjectToNastran>
 <FMUImport index="0">
 </FMUImport>
@@ -2976,7 +2976,7 @@
 <GeomMeshType value="1"/>
 <GeomType value="0"/>
 <GeomUUID value="00000000-0000-0000-0000-000000000000"/>
-<BodiesIDs size="1"> 53baccfa-8972-4839-aa1f-d49f2ff32eba </BodiesIDs>
+<BodiesIDs size="1"> 32837c2d-81aa-4489-973f-d289739d03e5 </BodiesIDs>
 </Geometry>
 <ReferenceParameters index="0">
 <ConstTemperature value="293.19999999999999"/>

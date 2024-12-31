@@ -1,4 +1,4 @@
-﻿absolute path:E:\2024-25 Solar Car\Aero models\2
+﻿absolute path:C:\Users\attic\Documents\GitHub\Mechanical\SeattleSolarCar2024-2025\Aeroshells\Atticus models\2
 init:1
 run_capture:1
 run_solver:1
@@ -8,7 +8,7 @@ run_convert:0
 isOK:1
 ForceNewCalc:1
 run_capture_prestate:1
-StartFldName:E:\2024-25 Solar Car\Aero models\2\2.fld
+StartFldName:C:\Users\attic\Documents\GitHub\Mechanical\SeattleSolarCar2024-2025\Aeroshells\Atticus models\2\2.fld
 NewCalcStartCptName:
 TransTimeMoments:
 TransFldNames:
@@ -17,13 +17,13 @@ Trans:0
 UsePrevRes:0
 ForcetoRunCPT:1
 ComputerName:
-port:50550
+port:52475
 ProcessResults:1
 LoadLastResult:1
 ProcessorsToUse:0
 LoadBaseFLDFile:0
 BaseFLDFile:
-id:{CD0DE828-1604-4540-8CC0-D08BF3FEB76F}
+id:{14B735DF-98E5-4D70-92A5-AA0F2A5A8C52}
 calculation_state:5
 ForceContinue:0
-SolverProcessId:10196
+SolverProcessId:120180
