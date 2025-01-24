@@ -1,0 +1,16 @@
+[StartTime]
+wheel arm-Static 2.MFC=2s
+[SolverState]
+wheel arm-Static 2.MFC=2
+[MainFrame]
+wheel arm-Static 2.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+wheel arm-Static 2.MFC=No
+[SolverType]
+wheel arm-Static 2.MFC=Linear Analysis
+[StudyType]
+wheel arm-Static 2.MFC=0
+[StudyName]
+wheel arm-Static 2.MFC=Static 2
+[Solver]
+wheel arm-Static 2.MFC=Iterative
