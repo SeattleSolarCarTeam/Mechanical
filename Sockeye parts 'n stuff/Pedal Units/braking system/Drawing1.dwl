@@ -1,3 +1,0 @@
-lucie
-LAPTOP-H3A2JH2O 
-Monday, April 10, 2023  5:51:09 PM
