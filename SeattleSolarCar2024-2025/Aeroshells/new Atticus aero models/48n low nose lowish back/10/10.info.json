@@ -1,0 +1,122 @@
+{
+    "version": 0,
+    "model_name": "new assem.SLDPRT",
+    "project_name": "Project(1)",
+    "config_name": "Default",
+    "project_path": "D:\\GitHub\\Mechanical\\SeattleSolarCar2024-2025\\Aeroshells\\new Atticus aero models\\50n low nose straight back - Copy\\10\\10.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 72166,
+        "cells_fluid": 72166,
+        "cells_solid": 1355,
+        "cells_fluid_containing_solid": 1187
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "17:43:39-0700",
+        "prepare_geometry_total_time": 2,
+        "cpu_time_solver_total": 94,
+        "iteration": 116,
+        "travel": 1.393104784748194,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "17:45:08-0700",
+        "cpu_time_per_last_iter": 1,
+        "cpu_time_left": 0,
+        "iterations_per_travel": 84
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Force (X) 1",
+                "unit": "force",
+                "value": 8.09438518707718,
+                "progress": 100.0,
+                "criteria": 0.28270613424031404,
+                "delta": 0.24354216405382978,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Y) 2",
+                "unit": "force",
+                "value": -66.30487838036947,
+                "progress": 100.0,
+                "criteria": 1.4083752492666848,
+                "delta": 0.640347586630952,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Z) 3",
+                "unit": "force",
+                "value": -48.19925890369238,
+                "progress": 100.0,
+                "criteria": 2.6729667862654463,
+                "delta": 0.31336224967802195,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Torque (X) 4",
+                "unit": "momentum",
+                "value": -287.59116918217643,
+                "progress": 100.0,
+                "criteria": 2.896556040450137,
+                "delta": 0.9464950887447117,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Torque (Y) 5",
+                "unit": "momentum",
+                "value": 2.9415964972590003,
+                "progress": 100.0,
+                "criteria": 1.2727971198437242,
+                "delta": 0.6996655411154933,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Torque (Z) 6",
+                "unit": "momentum",
+                "value": -28.029745183259855,
+                "progress": 100.0,
+                "criteria": 0.6740484504522005,
+                "delta": 0.42863516758437115,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2023  x64 / 5965 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2023 SP2.1",
+        "computer_name": "DESKTOP-9NTJJ53",
+        "user_name": "attic",
+        "os": "Windows 10 (Version 10.0.19045)",
+        "cpu": "        Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz",
+        "number_of_cores": 8,
+        "memory_avail": 11497,
+        "memory_total": 18389
+    }
+}
