@@ -1,0 +1,122 @@
+{
+    "version": 0,
+    "model_name": "new assem.SLDPRT",
+    "project_name": "Project(1)",
+    "config_name": "Default",
+    "project_path": "D:\\GitHub\\Mechanical\\SeattleSolarCar2024-2025\\Aeroshells\\new Atticus aero models\\44n curved array low nose lowish back - Copy\\1\\1.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 72255,
+        "cells_fluid": 72255,
+        "cells_solid": 1373,
+        "cells_fluid_containing_solid": 1252
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "09:42:23-0700",
+        "prepare_geometry_total_time": 3,
+        "cpu_time_solver_total": 123,
+        "iteration": 138,
+        "travel": 1.656633568413117,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "09:44:20-0700",
+        "cpu_time_per_last_iter": 1,
+        "cpu_time_left": 2,
+        "iterations_per_travel": 84
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Force (X) 1",
+                "unit": "force",
+                "value": 44.70812932856197,
+                "progress": 100.0,
+                "criteria": 1.800385794993533,
+                "delta": 0.11201362623824451,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Y) 2",
+                "unit": "force",
+                "value": -52.28410823601657,
+                "progress": 100.0,
+                "criteria": 2.786927582615682,
+                "delta": 0.08841665923468156,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Z) 3",
+                "unit": "force",
+                "value": 12.714752533931875,
+                "progress": 100.0,
+                "criteria": 0.31800205582660224,
+                "delta": 0.029699475878230075,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Torque (X) 4",
+                "unit": "momentum",
+                "value": 1.5927050411577177,
+                "progress": 100.0,
+                "criteria": 0.0667731533886644,
+                "delta": 0.062071224803413205,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Torque (Y) 5",
+                "unit": "momentum",
+                "value": -50.494842436155885,
+                "progress": 100.0,
+                "criteria": 1.1701220715330993,
+                "delta": 0.07856280784052672,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Torque (Z) 6",
+                "unit": "momentum",
+                "value": -441.28067266889036,
+                "progress": 100.0,
+                "criteria": 9.836140284787044,
+                "delta": 0.47118689114694234,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2023  x64 / 5965 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2023 SP2.1",
+        "computer_name": "DESKTOP-9NTJJ53",
+        "user_name": "attic",
+        "os": "Windows 10 (Version 10.0.19045)",
+        "cpu": "        Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz",
+        "number_of_cores": 8,
+        "memory_avail": 11426,
+        "memory_total": 18389
+    }
+}
