@@ -1,0 +1,122 @@
+{
+    "version": 0,
+    "model_name": "new assem.SLDPRT",
+    "project_name": "Project(1)",
+    "config_name": "Default",
+    "project_path": "C:\\Users\\5014070\\Documents\\GitHub\\Mechanical\\SeattleSolarCar2024-2025\\Aeroshells\\new Atticus aero models\\44n curved array low nose lowish back\\5\\5.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 72497,
+        "cells_fluid": 72497,
+        "cells_solid": 1627,
+        "cells_fluid_containing_solid": 1497
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "17:39:08-0700",
+        "prepare_geometry_total_time": 1,
+        "cpu_time_solver_total": 26,
+        "iteration": 101,
+        "travel": 1.2111130988134615,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "17:39:31-0700",
+        "cpu_time_per_last_iter": 1,
+        "cpu_time_left": 3,
+        "iterations_per_travel": 84
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Force 1",
+                "unit": "force",
+                "value": 114.90766287337712,
+                "progress": 100.0,
+                "criteria": 1.6341340919625413,
+                "delta": 1.1876656961497645,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Y) 2",
+                "unit": "force",
+                "value": -103.94032306418221,
+                "progress": 100.0,
+                "criteria": 2.278887762961467,
+                "delta": 1.314611832319855,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Z) 3",
+                "unit": "force",
+                "value": -48.6742245137194,
+                "progress": 100.0,
+                "criteria": 2.02712723033654,
+                "delta": 0.37299578069593053,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Torque (X) 4",
+                "unit": "momentum",
+                "value": -215.4784327800512,
+                "progress": 100.0,
+                "criteria": 1.5921300408854833,
+                "delta": 1.56743670038108,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Torque (Y) 5",
+                "unit": "momentum",
+                "value": 53.539418118043216,
+                "progress": 100.0,
+                "criteria": 2.6685090145139343,
+                "delta": 1.2343324248384278,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Torque (Z) 6",
+                "unit": "momentum",
+                "value": -115.4321098352611,
+                "progress": 100.0,
+                "criteria": 2.6157009060884895,
+                "delta": 1.7501652626758641,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2023  x64 / 5965 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2023 SP2.1",
+        "computer_name": "AVI435853SN",
+        "user_name": "5014070",
+        "os": "Windows 11 (or higher) (Version 10.0.22631)",
+        "cpu": "12th Gen Intel(R) Core(TM) i7-12800H",
+        "number_of_cores": 20,
+        "memory_avail": 4897,
+        "memory_total": 16016
+    }
+}
