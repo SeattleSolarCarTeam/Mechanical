@@ -1,0 +1,100 @@
+{
+    "version": 0,
+    "model_name": "new assem.SLDPRT",
+    "project_name": "Project(1)",
+    "config_name": "Default",
+    "project_path": "C:\\Users\\5014070\\Documents\\GitHub\\Mechanical\\SeattleSolarCar2024-2025\\Aeroshells\\new Atticus aero models\\juds wierd thing, not yet done\\13\\13.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 71626,
+        "cells_fluid": 71626,
+        "cells_solid": 1089,
+        "cells_fluid_containing_solid": 799
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "17:15:17-0700",
+        "prepare_geometry_total_time": 1,
+        "cpu_time_solver_total": 21,
+        "iteration": 84,
+        "travel": 1.011328840909445,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "17:15:37-0700",
+        "cpu_time_per_last_iter": 0,
+        "cpu_time_left": 50,
+        "iterations_per_travel": 84
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Force 1",
+                "unit": "force",
+                "value": 75.71680427650077,
+                "progress": 100.0,
+                "criteria": 3.6795366719659452,
+                "delta": 1.0998998692701747,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Y) 2",
+                "unit": "force",
+                "value": 26.888153144452712,
+                "progress": 100.0,
+                "criteria": 1.7984617471267819,
+                "delta": 1.4063214247008666,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Force (Z) 3",
+                "unit": "force",
+                "value": -68.46615103773208,
+                "progress": 100.0,
+                "criteria": 3.844268174767484,
+                "delta": 0.7066343783559148,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Torque (X) 4",
+                "unit": "momentum",
+                "value": 18.31429601489306,
+                "progress": 100.0,
+                "criteria": 4.628358662667069,
+                "delta": 2.2098496056179684,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2023  x64 / 5965 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2023 SP2.1",
+        "computer_name": "AVI435853SN",
+        "user_name": "5014070",
+        "os": "Windows 11 (or higher) (Version 10.0.22631)",
+        "cpu": "12th Gen Intel(R) Core(TM) i7-12800H",
+        "number_of_cores": 20,
+        "memory_avail": 5233,
+        "memory_total": 16016
+    }
+}

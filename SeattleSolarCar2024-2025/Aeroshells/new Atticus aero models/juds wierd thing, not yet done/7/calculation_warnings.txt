@@ -1,0 +1,7 @@
+2025-Mar-21 16:36:17
+Computer name:	AVI435853SN
+Number of cores used in calculation:	20
+Configuration name:	Default
+Project name:	Project(1)
+
+Warnings on last iteration: 
