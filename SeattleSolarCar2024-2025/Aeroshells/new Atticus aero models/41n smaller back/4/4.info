@@ -1,0 +1,58 @@
+Model: new assem.SLDPRT
+Project name: Project(1)
+Config name: Default
+Project path: D:\GitHub\Mechanical\SeattleSolarCar2024-2025\Aeroshells\new Atticus aero models\eszwxrdtcfgyvhubj\4\4.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 72184
+    Fluid cells: 72184
+    Solid cells: 1337
+    Fluid cells containing solids: 1274
+
+
+Geometry preparation finished: 14:59:04
+Geometry preparation time: 00:00:02
+Solver CPU time: 00:01:25
+Iterations: 88
+Travels: 1.05675
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 15:00:24
+CPU time per last iteration: 00:00:01
+CPU time left: 00:00:01
+Iterations per 1 travel: 84
+
+Goals
+    Name            | Unit (SI) | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Force (X) 1  | force    |            8.65 |     100.0 |            0.49 |            0.48 | On
+    GG Force (Y) 2  | force    |          -77.00 |     100.0 |            2.34 |            1.51 | On
+    GG Force (Z) 3  | force    |          -41.00 |     100.0 |            1.54 |            1.15 | On
+    GG Torque (X) 4 | momentum |          -88.47 |     100.0 |            5.98 |            3.00 | On
+    GG Torque (Y) 5 | momentum |           57.08 |     100.0 |            2.59 |            2.20 | On
+    GG Torque (Z) 6 | momentum |          -68.26 |     100.0 |            2.12 |            1.46 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2023  x64 / 5965 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2023 SP2.1
+    Computer name: DESKTOP-9NTJJ53
+    User name: attic
+    Operating system: Windows 10 (Version 10.0.19045)
+    Processors:         Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+    Number of cores: 8
+    Memory: 11340 MB / 18389 MB
+
